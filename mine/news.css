@@ -1,0 +1,128 @@
+body{
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    border-radius: 20px;
+    width: 750px;
+    min-width: fit-content;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(235, 18%, 26%);
+    margin: auto;
+}
+#left{
+    flex: 1;
+    padding-right: 1rem;
+    margin-right: 2rem;
+    font-weight: 300;
+    font-family: "Roboto-Regular";
+    font-size: 0.7rem;
+    position: relative;
+}
+@font-face {
+        font-family: "Roboto-Bold.ttf";
+        src: url(Roboto-Bold.ttf);
+    }
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(Roboto-Regular.ttf);
+}
+
+#left h1{
+
+    font-size: 3rem;
+    font-family: "Roboto-Bold.ttf";
+    font-weight: 700;
+}
+#left p{
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+    font-weight: 500;
+}
+ul{
+    padding: 0px;
+}
+#left li{
+    display: flex;
+    flex-direction: row;
+}
+
+#left img{
+    margin-right: 10px;
+    padding: 0px;
+
+}
+#left .list p{
+    font-family: "Roboto-Regular";
+    font-weight: 500;
+    padding: 0px;
+    font-size: 0.9rem;
+}
+#label{
+    font-family: "Roboto-Regular";
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+span{
+    position: absolute;
+
+    right: 0;
+    transform: translateY(25%);
+    color: hsl(4, 100%, 67%);
+    font-weight: bolder;
+    font-size: 0.7rem;
+}
+input{
+    width: 100%;
+    margin-right: 10px;
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+
+    border-radius: 5px;
+    margin-top: 15px;
+
+    border: 1px solid rgb(226, 222, 222);
+    cursor: pointer;
+    outline: none;
+}
+input:focus{
+    border: 1px solid hsl(235, 18%, 26%);
+}
+button{
+    position: relative;
+    min-width: 106%;
+    margin-right: 20px;
+    border-radius: 7px;
+    margin-top: 15px;
+    padding: 20px;
+    background-color: hsl(235, 18%, 26%);
+    border: none;
+    color: white;
+    font-family: "Roboto-Regular";
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(4, 100%, 67%);
+    box-shadow: 3px 1px 30px hsl(0, 58%, 77%);
+}
+#right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}

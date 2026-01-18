@@ -1,0 +1,62 @@
+body{
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    background-color: white;
+    width: 500px;
+    min-width: 31%;
+    
+    min-height:65lvh;
+    margin-top: 50lvh;
+    transform: translateY(-50%);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#inner{
+    padding: 2rem;
+}
+@font-face {
+        font-family: "Roboto-Bold.ttf";
+        src: url(Roboto-Bold.ttf);
+    }
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(Roboto-Regular.ttf);
+}
+h1{
+    font-family: "Roboto-Bold.ttf";
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+    font-size: 3rem;
+}
+
+span{
+    font-family: "Roboto-Regular";
+    color: hsl(234, 29%, 20%);
+    font-size: large;
+}
+#mail{
+    font-weight: bolder;
+}
+button{
+    min-width: 100%;
+    padding: 15px;
+    border-radius: 7px;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    font-family: "Roboto-Regular";
+    margin-top: 40px;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(4, 100%, 67%);
+    box-shadow: 3px 1px 30px hsl(0, 58%, 77%);
+}

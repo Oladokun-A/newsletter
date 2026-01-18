@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="news.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="left">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving mothly updates on:</p>
+        <ul>
+          <li class="list">
+            <img
+              src="/newsletter-sign-up-with-success-message-main/assets/images/icon-list.svg"
+              alt=""
+            />
+            <p>Product discovery and building what matters</p>
+          </li>
+          <li class="list">
+            <img
+              src="/newsletter-sign-up-with-success-message-main/assets/images/icon-list.svg"
+              alt=""
+            />
+            <p>Measuring too ensure updates are a success</p>
+          </li>
+          <li class="list">
+            <img
+              src="/newsletter-sign-up-with-success-message-main/assets/images/icon-list.svg"
+              alt=""
+            />
+            <p>And much more!</p>
+          </li>
+        </ul>
+        <form action="index.php" id="login">
+            <label for="Email" id="label">Email address</label> 
+            <span id="errorMessage"></span><br />
+            <input
+            type="text"
+            id="Email"
+            name="email"
+            placeholder="email@company.com"
+            required
+            />
+            
+            <br />
+            <button type="submit">Subscribe to monthly newsletter</button>
+        </form>
+
+      </div>
+      <div id="right">
+        <img
+          src="/newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-desktop.svg"
+          alt=""
+        />
+      </div>
+    </div>
+    <script src="news.js"></script>
+  </body>
+</html>
